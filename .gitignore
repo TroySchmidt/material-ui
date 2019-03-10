@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules
 npm-debug.log
 build
@@ -10,11 +11,43 @@ icon-builder/js
 icon-builder/jsx
 
 # Exclude IDE project folders
-.idea
-*.sublime-project
-*.sublime-workspace
-jsconfig.json
+||||||| merged common ancestors
+node_modules
+npm-debug.log
+build
+coverage
 
-# OS files
+# Exclude compiled files
+/lib
+icon-builder/js
+icon-builder/jsx
+
+# Exclude IDE project folders
+=======
+# The best pattern people should follow is ignoring the editors' files in their
+# global .gitignore configuration file.
+# However, in order to prevent issues. We also ignore editors' files here.
+>>>>>>> 0586264fbf30ad2aec78e5915b687a56b3c7d014
+.idea
+.vscode
+
+*.log
 .DS_STORE
+<<<<<<< HEAD
 yarn.lock
+||||||| merged common ancestors
+=======
+/.eslintcache
+/.next
+/.nyc_output
+/coverage
+/docs/export
+/packages/material-ui-codemod/lib
+/packages/material-ui-icons/material-io-tools-icons
+/test/regressions/screenshots
+/test/selenium-output
+/tmp
+build
+node_modules
+package-lock.json
+>>>>>>> 0586264fbf30ad2aec78e5915b687a56b3c7d014
